@@ -1,0 +1,24 @@
+{
+  "name": "amass-etc-passwd",
+  "description": "A module for amass to read passwd and group info",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "amass",
+    "ohai",
+    "facter",
+    "puppet",
+    "etc",
+    "passwd",
+    "group",
+    "chef"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "etc-passwd": "~0.1.1"
+  }
+}
