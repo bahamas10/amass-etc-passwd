@@ -5,6 +5,13 @@ A module for amass to read passwd and group info
 
 See [node-etc-passwd](https://github.com/bahamas10/node-etc-passwd)
 
+Installation
+------------
+
+1. Install [amass](https://github.com/bahamas10/node-amass)
+2. `[sudo] amass --add amass-etc-passwd`
+3. run `amass`
+
 Example
 -------
 
@@ -49,6 +56,7 @@ Add this plugin to amass to get passwd and group info
     { ... }
   ]
 }
+```
 
 License
 -------
